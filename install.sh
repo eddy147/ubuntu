@@ -15,3 +15,4 @@ git config --global user.email "eddy147@gmail.com"
 git config --global user.name "eddy147"
 
 alias vim="nvim"
+sudo apt-get install aptitude
