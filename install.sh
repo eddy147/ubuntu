@@ -7,4 +7,11 @@ sudo apt-get --yes install build-essential autoconf m4 libncurses5-dev libwxgtk3
 
 git clone git@github.com:eddy147/config-nvim.git ~/.config/nvim
 
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global user.email "eddy147@gmail.com"
+git config --global user.name "eddy147"
+
 alias vim="nvim"
