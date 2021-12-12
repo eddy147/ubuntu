@@ -1,7 +1,7 @@
 cd $HOME
 sudo apt update
 sudo apt upgrade
-sudo apt --yes install zsh
+sudo apt --yes install curl git zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sh install.sh
