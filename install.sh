@@ -1,5 +1,16 @@
+cd $HOME
+sudo apt update
+sudo apt upgrade
+sudo apt --yes install zsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh install.sh
+
 sudo apt install --yes libssl-dev automake autoconf libncurses5-dev
 
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+echo ". $HOME/.asdf/asdf.sh" >> ~/.zshrc
+source ~/.zshrc
 asdf install erlang 24.1.7
 asdf install elixir master-otp-24
 
@@ -16,3 +27,5 @@ git config --global user.name "eddy147"
 
 alias vim="nvim"
 sudo apt-get install aptitude
+sudo apt install silversearcher-ag
+echo ". /home/eddy/.asdf/asdf.sh" >> ~/.zshrc
