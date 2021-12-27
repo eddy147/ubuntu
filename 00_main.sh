@@ -31,5 +31,9 @@ silversearcher-ag
 ./40_docker.sh && \
 ./50_elixir.sh && \ 
 ./60_neovim.sh && \
-./70_pgadmin.sh
+./70_pgadmin.sh && \
+./80_neofetch && \
+neofetch
+
+echo "Reboot for all installations to take effect."
 

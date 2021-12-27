@@ -1,3 +1,5 @@
+#!/bin/bash
+
 asdf plugin add erlang
 asdf plugin add elixir
 
