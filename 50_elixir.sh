@@ -7,3 +7,6 @@ asdf install erlang 24.2
 asdf install elixir 1.13-otp-24
 asdf global erlang 24.2
 asdf global elixir 1.13-otp-24
+
+mix local.hex
+mix archive.install hex phx_new
