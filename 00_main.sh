@@ -31,6 +31,7 @@ sudo "fs.aio-max-nr=1048576" >> /etc/sysctl.conf
 
 ./10_git.sh && 
 ./20_zsh.sh && 
+./21_fzf.sh &&
 ./30_asdf.sh && 
 ./40_docker.sh && 
 ./50_elixir.sh &&  
