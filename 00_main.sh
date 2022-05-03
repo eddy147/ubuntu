@@ -26,6 +26,7 @@ sudo apt --yes install silversearcher-ag
 sudo apt --yes install inotify-tools
 sudo apt --yes install graphviz
 sudo apt --yes install jq
+sudo apt --yes install python3-pip
 
 # otherwise scylla can not run: (see https://docs.ondat.io/docs/prerequisites/max-aio/)
 sudo "fs.aio-max-nr=1048576" >> /etc/sysctl.conf
