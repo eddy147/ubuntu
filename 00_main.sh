@@ -16,6 +16,7 @@ sudo apt --yes install libgl1-mesa-dev
 sudo apt --yes install libglu1-mesa-dev 
 sudo apt --yes install libpng-dev 
 sudo apt --yes install libssh-dev 
+sudo apt --yes install libglib2.0-dev
 sudo apt --yes install unixodbc-dev 
 sudo apt --yes install xsltproc 
 sudo apt --yes install fop 
