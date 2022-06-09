@@ -27,6 +27,7 @@ sudo apt --yes install inotify-tools
 sudo apt --yes install graphviz
 sudo apt --yes install jq
 sudo apt --yes install python3-pip
+sudo apt --yes install ninja-build 
 
 # otherwise scylla can not run: (see https://docs.ondat.io/docs/prerequisites/max-aio/)
 sudo "fs.aio-max-nr=1048576" >> /etc/sysctl.conf
