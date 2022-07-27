@@ -41,8 +41,8 @@ sudo "fs.aio-max-nr=1048576" >> /etc/sysctl.conf
 ./30_asdf.sh && 
 ./40_docker.sh && 
 ./50_elixir.sh &&  
-./60_neovim.sh && 
-./70_pgadmin.sh && 
+#./60_neovim.sh && 
+#./70_pgadmin.sh && 
 ./80_neofetch && 
 
 echo "Reboot for all installations to take effect."

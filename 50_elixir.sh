@@ -1,5 +1,19 @@
 #!/bin/bash
 
+PWD=$(pwd)
+
+cd /usr/local/src/
+sudo wget https://www.openssl.org/source/openssl-1.1.1m.tar.gz
+
+sudo tar -xf openssl-1.1.1m.tar.gz
+cd openssl-1.1.1m
+sudo ./config --prefix=/usr/local/ssl --openssldir=/usr/local/ssl shared zlib
+sudo make
+sudo make test
+sudo make install
+
+cd $PWD
+
 asdf plugin add erlang
 asdf plugin add elixir
 
