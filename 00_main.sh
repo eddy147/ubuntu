@@ -32,6 +32,11 @@ sudo apt --yes install ninja-build
 sudo apt --yes install gparted 
 sudo apt --yes install jq
 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/eddy/.zshrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+brew install gcc
+
 # otherwise scylla can not run: (see https://docs.ondat.io/docs/prerequisites/max-aio/)
 sudo "fs.aio-max-nr=1048576" >> /etc/sysctl.conf
 
