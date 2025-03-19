@@ -10,3 +10,7 @@ echo "See https://github.com/lemnos/theme.sh for examples"
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 sudo apt install --yes kafkacat
+
+# for zed editor: do
+# sudo su -
+# echo 'off' > /etc/prime-discrete
